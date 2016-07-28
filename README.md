@@ -13,8 +13,8 @@ Create symlinks:
 
 ln -s ~/dotfiles/bashrc ~/.bashrc #linux
 ln -s ~/dotfiles/bashrc ~/.bash_profile #mac
-#ln -s ~/dotfiles/vimrc ~/.vimrc
-#ln -s ~/dotfiles/vim ~/.vim
-#to do : ln -s ~/dotfiles/ctags ~/.ctags
+// ln -s ~/dotfiles/vimrc ~/.vimrc
+// ln -s ~/dotfiles/vim ~/.vim
+// to do : ln -s ~/dotfiles/ctags ~/.ctags
 ln -s ~/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/dotfiles/global-gitignore ~/.gitignore
