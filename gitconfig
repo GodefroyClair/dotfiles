@@ -1,0 +1,20 @@
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[user]
+	name = Clair
+	email = godefroy.clair@gmail.com
+[alias]
+	ci = commit
+	st = status
+	br = branch
+	co = checkout
+	ctags = !.git/hooks/ctags
+[color]
+	ui = auto
+[core]
+	editor = /usr/local/bin/vim
+	excludesfile = /Users/godot/.gitignore
+[init]
+	templatedir = ~/.git_template
